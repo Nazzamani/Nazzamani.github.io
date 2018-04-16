@@ -45,12 +45,12 @@ body{
   background-color: yellow;
 }
 #column2{
-  width: 32%;
+  width: 32.33%;
   background-color:green;
 }
 #column3{
-  width: 32.33%;
-  background-color:red;
+  width: 32%;
+  background-color:yellow;
 }
 
 /* Clear floats after image containers */
