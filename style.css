@@ -10,7 +10,7 @@ body{
 .side{
     width: 15%;
     float: left;
-    padding: 15px;
+    padding: 1px;
     border: 1px solid red;
     background-color: #111;
     overflow-x: hidden;
@@ -19,7 +19,7 @@ body{
 .content{
     width: 75%;
     float: left;
-    padding: 15px;
+    padding: 1px;
     border: 1px solid red;
 }
 
