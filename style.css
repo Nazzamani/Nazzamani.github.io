@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color:red;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header{
+    padding-left: 3px;
+    font-size: 1vm;
+}
+
+.titles{
+    padding-left: 8px;
+    font-size: 1vm;
+    color:#FF7F50;
+}
+
+.side{
+    width: 10%;
+    float: left;
+    padding: 1px;
+    border: 1px solid red;
+    background-color: #111;
+    overflow-x: scroll;
+    height: 100%;}
+
+.content{
+    width: 90%;
+    float: left;
+    padding: 1px;
+    border: 1px solid red;
+}
+
+.column {
+  float: left;
+  padding: none;
+  font-size: 0.97 vm;
+}
+
+#column1{
+  width: 35%;
+  background-color: yellow;
+}
+#column2{
+  width: 31%;
+  background-color:green;
+}
+#column3{
+  width: 33.33%;
+  background-color:red;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+img.myPic{
+    border-radius: 5%;
+    margin-top: auto;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.titles{
+    color:#003399;
+}
+
+li.b{
+    list-style-type: none;
+    color: #EEEEEE;
+}
+
+li.a{
+    list-style-type: square;
+}
+
+.content2{
+    width: 90%;
+    float: right;
+    padding: 1px;
+    border: 1px solid red;
+    background-color:green;
+}
+
+.content3{
+    width: 90%;
+    float: right;
+    padding: 1px;
+    border: 1px solid red;
+    text-align:center;
+    background-color:black;
+    color: white;
+}
+
+.language{
+    font-size: 0.95vm;
+}
+
+.btn{
+  background: url(jCup.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 90px;
+  border-radius: 15px;
+}
