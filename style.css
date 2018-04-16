@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#EEEEEE;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.side{
+    width: 15%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+    background-color: #111;
+    overflow-x: hidden;
+    height: 100%;}
+
+.content{
+    width: 75%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+img.myPic{
+    border-radius: 5%;
+    margin-top: auto;
+    border: 1px solid black;
+    width: 60%;
+}
+
+.titles{
+    color:#003399;
+}
