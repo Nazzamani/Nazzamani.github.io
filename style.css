@@ -65,7 +65,7 @@ img.myPic{
   background-color:#bb99ff;
 }
 
-/* Clear floats after image containers */
+/* Clear floats */
 .row::after {
   content: "";
   clear: both;
