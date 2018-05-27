@@ -1,0 +1,6 @@
+/**
+ * 
+ */
+function myFunctionPagination1(){
+	
+}
